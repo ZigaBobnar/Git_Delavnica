@@ -17,5 +17,9 @@ def changepwd():
 def register():
 	return render_template('register.html')
 
+@app.route("/feature")
+def feature():
+	return render_template('feature.html')
+
 if __name__ == "__main__":
 	app.run(host='0.0.0.0', port=5000, debug=True)
