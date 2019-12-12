@@ -13,5 +13,9 @@ def login():
 def changepwd():
 	return render_template('changepwd.html')
 
+@app.route("/register")
+def register():
+	return render_template('register.html')
+
 if __name__ == "__main__":
 	app.run(host='0.0.0.0', port=5000, debug=True)
