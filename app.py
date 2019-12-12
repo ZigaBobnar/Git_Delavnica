@@ -10,7 +10,7 @@ def login():
 	return render_template('login.html')
 
 @app.route("/changepwd")
-def login():
+def changepwd():
 	return render_template('changepwd.html')
 
 if __name__ == "__main__":
